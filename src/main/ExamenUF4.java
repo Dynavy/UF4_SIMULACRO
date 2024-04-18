@@ -7,7 +7,7 @@ public class ExamenUF4 {
 	public static void main(String[] args) {
 	
 		// Creamos una clase de tipo Hulk y pasamos false al parametro boolean del constructor.	
-		Hulk cosaVerde = new Hulk(false);
+		Hulk cosaVerde = new Hulk();
 		
 		// Calculamos el potencial sin multiplicarse X2 (boolean false).
 		System.out.println("Potencial de Hulk sin enfurecer: " + cosaVerde.calcularPotencial());

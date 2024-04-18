@@ -10,10 +10,10 @@ public class Hulk extends SuperHeroe implements Mutable {
 	// Param: boolean de la class Hulk.
 	// Inicialize: todos los atributos de la clase Hulk y la clase SuperHeroe.
 	// Super: pasamos al constructor de la clase Padre el nombre y la edad.
-	public Hulk(boolean furia) {
+	public Hulk() {
 		super("Hulk", 25);
 		this.poderes = new String[]{"fuerte", "alto", "resistente", "irascible"};
-		this.furia = furia;
+		this.furia = false;
 	}
 	
 	
